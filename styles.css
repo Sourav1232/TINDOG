@@ -1,0 +1,168 @@
+.navbar-nav{
+  position: relative;
+  left:68%;
+  margin:10px 20px;
+}
+#title{
+  background-color:#ff4c68;
+}
+.head{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+body{
+  font-family:"Ubuntu";
+}
+.container-fluid{
+  padding: 3% 15% 6%;
+  z-index:-1;
+}
+#play{
+  margin-top:10%;
+  margin-right:5%;
+}
+#apple{
+  margin-top:10%;
+}
+.tin{
+  margin-left:210px;
+  width:280px;
+  transform:rotate(20deg);
+  position: absolute;
+  z-index:0;
+  }
+.navbar{
+  padding:0 0 4.5rem
+}
+#features{
+  padding:10% 15%;
+  background-color:#fff;
+  position:relative;
+  z-index:1;
+}
+#circle{
+  padding-left:20%;
+  color:#ef8172;
+  padding-bottom:10%;
+}
+#bull{
+  padding-left:20%;
+  color:#ef8172;
+  padding-bottom:10%;
+}
+#heart{
+  padding-left:20%;
+  color:#ef8172;
+  padding-bottom:10%;
+}
+#circle:hover{
+  color:#ff4c68;
+}
+#bull:hover{
+  color:#ff4c68;
+}
+#heart:hover{
+  color:#ff4c68;
+}
+
+
+
+/* -----testimonial----- */
+
+
+
+#testimonials{
+  background-color:#ff4c68;
+  text-align: center;
+}
+h2{
+  line-height:1.5;
+  font-size:50px;
+}
+.testi{
+  width:180px;
+  border-radius:100%;
+  margin:20px;
+}
+.testi1{
+  color:#fff;
+}
+#press{
+  background-color:#ff4c68;
+  text-align:center;
+}
+.press-logo{
+  width:15%;
+  margin:5% 5%;
+}
+.carousel-item{
+  background-color:#ff4c68;
+  padding-left:15%;
+  padding-right:15%;
+  padding-top:10%;
+  color:#fff;
+  font-family:"Montserrat-Bold";
+}
+#pricing{
+  padding:5% 10%;
+  text-align:center;
+}
+.pricing-col{
+  padding:5% 3%;
+}
+.navbar-nav{
+  margin-right:auto;
+}
+@media (max-width:1028px)
+{
+  .tin{
+    position: relative;
+    transform:rotate(0);
+    right:15%;
+    top:7%;
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  background-color:#ff4c68;
+  padding: 3% 15% 6%;
+  height:400px;
+}
+#life{
+  font-family: "Montserrat", sans-serif;
+  font-size:45px;
+  line-height: 1.5;
+  text-align:center;
+  color:#fff;
+}
+#p{
+  position: relative;
+  left:57%;
+  top:15%;
+}
+#a{
+  position: relative;
+  left:15%;
+  top:15%;
+}
+#footer{
+  padding:6% 15% 6%;
+  text-align: center;
+}
+.social{
+  color:#808080;
+  margin:20px 5px;
+}
+@media (max-width:1028px){
+  #p{
+    position: relative;
+    left:10%;
+  }
+  #a{
+    position: relative;
+    left:35%
+  }
+}
